@@ -1,0 +1,10 @@
+runtime: go111
+
+handlers:
+- url: /task.*
+  script: auto
+  login: admin
+  secure: always
+- url: /.*
+  script: auto
+  secure: always
